@@ -1,0 +1,12 @@
+# Core dependencies
+torch>=2.0.0
+numpy>=1.24.0
+
+# For data loading
+requests>=2.28.0
+
+# For testing
+pytest>=7.3.0
+
+# Optional: for faster training
+# triton>=2.0.0  # Uncomment if using torch.compile with Triton backend
