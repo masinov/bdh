@@ -132,7 +132,7 @@ def main():
                         help='Model size (tiny=10M, small=25M, medium=100M)')
     parser.add_argument('--max_iters', type=int, default=5000,
                         help='Maximum number of training iterations')
-    parser.add_argument('--batch_size', type=int, default=32,
+    parser.add_argument('--batch_size', type=int, default=2,
                         help='Batch size')
     parser.add_argument('--block_size', type=int, default=512,
                         help='Context length')
